@@ -1,0 +1,26 @@
+.container  p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 
+Descendent Selector
+    div p
+    div .text
+    .container .text
+    .container p
+
+Direct child selector
+    div > p
+    div > .text
+    .container > .text
+    .container > p
+
+All works the same for here, because there's no relation
+except direct child-parent
+relationship. Otherwise, last 
+4 wouldn't work.
+
+*/
